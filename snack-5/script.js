@@ -2,7 +2,6 @@
 un numero, se è dispari inseriscilo nell’array.*/
 
 var container = [];
-var numero;
 
 for( var i = 1; i <= 6; i++ ){
 
@@ -11,7 +10,6 @@ for( var i = 1; i <= 6; i++ ){
     if( numero % 2 == 1){
         container.push(numero);
     }
-    
 }
 
 console.log(container);
