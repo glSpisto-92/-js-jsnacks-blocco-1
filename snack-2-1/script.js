@@ -3,7 +3,8 @@ numero. Il programma stampa la somma di tutti i numeri
 inseriti. Esegui questo programma in due versioni, con il for
 e con il while.*/
 
-somma = 0;
+//for
+var somma = 0;
 
 for( var i = 1; i <= 5; i ++ ){
 
@@ -11,9 +12,11 @@ for( var i = 1; i <= 5; i ++ ){
 
     somma = somma + numero;
 
-    console.log(somma);
 }
+console.log(somma);
 
+
+//while
 var i = 1;
 
 while ( i <= 5 ){
@@ -24,5 +27,4 @@ while ( i <= 5 ){
     
     i ++;
 }
-
 console.log(somma);
